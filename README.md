@@ -22,6 +22,6 @@ The model we give contains the weights for the Dueling DQN.
 For Double DQN, it cannot work.</br>
 
 If you want to train for Double DQN, please try to modify line 27 and 28 to </br>
-self.main_network = DQN(state_space, action_space).to(self.device)
+self.main_network = DQN(state_space, action_space).to(self.device)</br>
 self.target_network = DQN(state_space, action_space).to(self.device)
 
