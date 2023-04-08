@@ -19,7 +19,7 @@ mainmodelfile='mainnetwork'+str(200)+'.pth'
 targetmodelfile='targetnetwork'+str(200)+'.pth'
 ```
 The model we give contains the weights for the Dueling DQN.
-For Double DQN, it cannot work.
+For Double DQN, it cannot work.</br>
 
 If you want to train for Double DQN, please try to modify line 27 and 28 to 
 self.main_network = DQN(state_space, action_space).to(self.device)
