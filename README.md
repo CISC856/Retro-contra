@@ -10,7 +10,7 @@ To replicate our results:
 2. Ensure the repository remains the same structure as it lay out in this repository
 3. change the code in main.py 
 
-The game rom is provided in the 
+The game rom is provided in the Contra_Integrations folder as rom.nes
 ```
 Transfer learning:
 The script sets that for 10 timesteps it saves the model in the directory(target network and main network separately).
