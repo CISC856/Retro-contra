@@ -18,5 +18,7 @@ In this case, if you want to invoke the model we give:
 mainmodelfile='mainnetwork'+str(200)+'.pth'
 targetmodelfile='targetnetwork'+str(200)+'.pth'
 ```
+The model we give contains the weights for the Dueling DQN.
+For Double DQN, it cannot work.
 
 
