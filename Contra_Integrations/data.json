@@ -1,0 +1,36 @@
+{
+  "info": {
+    "boss_defeat": {
+      "address": 44,
+      "type": "=u2"
+    },
+    "game_state": {
+      "address": 56,
+      "type": "|u1"
+    },
+    "life": {
+      "address": 50,
+      "type": "=u2"
+    },
+    "player_state": {
+      "address": 144,
+      "type": "=u2"
+    },
+    "score": {
+      "address": 2016,
+      "type": "<u4"
+    },
+    "scroll_center": {
+      "address": 100,
+      "type": ">u2"
+    },
+    "x_pos": {
+      "address": 820,
+      "type": "=u2"
+    },
+    "y_pos": {
+      "address": 794,
+      "type": "=u2"
+    }
+  }
+}

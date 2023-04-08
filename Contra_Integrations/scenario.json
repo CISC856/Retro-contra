@@ -1,0 +1,35 @@
+{
+  "crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "done": {
+    "variables": {
+      "game_state": {
+        "op": "equal",
+        "reference": 1
+      }
+    }
+  },
+  "reward": {
+    "script": "lua:update_x"
+  },
+  "scripts": [
+    "script.lua"
+  ],
+  "actions": [
+    [[], ["RIGHT"], ["A"]],
+    [[], ["RIGHT"], ["B"]],
+    [[], ["RIGHT"], ["A"], ["B"]],
+    [[], ["RIGHT"]],
+    [[], ["LEFT"]],
+    [[], ["A"]],
+    [[], ["B"]],
+    [[], ["UP"], ["A"]],
+    [[], ["UP"], ["B"]],
+    [[]]
+  ]
+}
+
