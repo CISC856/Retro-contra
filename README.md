@@ -15,6 +15,8 @@ The script sets that for 10 timesteps it saves the model in the directory(target
 For line 69, change load=True
 For line 77 & 78, change the variable to the name you give to the models
 In this case, if you want to invoke the model we give:
-mainmodel_dir=os.path.join(MAINMDOEL_DIR, mainmodelfile)
-targetmodel_dir=os.path.join(TARGETMDOEL_DIR, targetmodelfile)
+mainmodelfile='mainnetwork'+str(200)+'.pth'
+targetmodelfile='targetnetwork'+str(200)+'.pth'
 ```
+
+
